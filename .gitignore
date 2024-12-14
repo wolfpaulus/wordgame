@@ -1,0 +1,7 @@
+.DS_Store
+app/__pycache__/
+.venv/
+.pytest_cache/
+*.pyc
+app.log
+server_state.json
