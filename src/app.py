@@ -41,7 +41,10 @@ def get_word() -> str:
     return st.session_state.word
 
 
-st.markdown("""<style>code {font-size:18pt !important;}</style>""", unsafe_allow_html=True)
+html = "<style>code {font-size:18pt !important;}</style>"
+st.markdown(html, unsafe_allow_html=True)
+html = '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">'
+st.markdown(html, unsafe_allow_html=True)
 st.title('Word Guessing Game')
 st.subheader('Embry-Riddle Aeronautical University - CS 118 - Fall 2024', divider="blue")
 st.write(F"Welcome to the word guessing game! {server_state.get("game_count", 0)} Games played so far.")
@@ -77,3 +80,6 @@ var txtflds = Array.from(window.parent.document.querySelectorAll('input[type=tex
 txtflds[txtflds.length-1].focus();
 </script>
 """, height=0, width=0)
+
+link = '<a href="https://github.com/wolfpaulus/wordgame" target="_blank">Source Code</a>'
+st.write(f'<i class="fa-brands fa-github"> {link} </i>', unsafe_allow_html=True)
