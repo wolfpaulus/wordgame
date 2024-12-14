@@ -43,7 +43,7 @@ def play() -> None:
         print(f"Try to guess the word. It's {length} characters long.")
         print(f"You may guess up to {length} times. Good Luck!\n")
         for i in range(length):
-            guess = input(f"\n{i+1}. Enter your guess: ").lower()
+            guess = input(f"\n{i + 1}. Enter your guess: ").lower()
             if len(guess) != length or not guess.isalpha():
                 print(f"Invalid guess. Please enter a {length}-letter word.")
                 continue
