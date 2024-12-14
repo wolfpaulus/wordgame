@@ -41,6 +41,7 @@ def get_word() -> str:
     return st.session_state.word
 
 
+st.set_page_config(page_title="Word Game", page_icon=":game_die:")
 html = "<style>code {font-size:18pt !important;}</style>"
 st.markdown(html, unsafe_allow_html=True)
 html = '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">'

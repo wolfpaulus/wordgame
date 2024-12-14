@@ -2,8 +2,9 @@
 
 [![run-tests](https://github.com/wolfpaulus/wordgame/actions/workflows/python-test.yml/badge.svg)](https://github.com/wolfpaulus/wordgame/actions/workflows/python-test.yml)
 [![docker-publish](https://github.com/wolfpaulus/wordgame/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/wolfpaulus/wordgame/actions/workflows/docker-publish.yml)
-[![Uptime Robot status](https://img.shields.io/uptimerobot/status/m797374860-3b534eea99094adbd62aa357)](https://wordgame.techcasitaproductions.com)
+[![Uptime Robot status](https://img.shields.io/uptimerobot/status/m798198156-e6d9bbd28b863c0430391f6d)](https://wordgame.techcasitaproductions.com)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 
 ## Overview
 
@@ -63,7 +64,7 @@ Sorry, you did not guess the word. The word was 'tire'.
 Play again? (yes/no): 
 ```
 
-## Implementation Details
+**WebApp Example:**
 
 ![](./instructions/app.jpg)
 
