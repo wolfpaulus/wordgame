@@ -48,7 +48,7 @@ st.write(F"Welcome to the word guessing game! {server_state.get("game_count", 0)
 word = get_word()
 word_length = len(word)
 attempt_terms = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh"]
-attempt_terms[word_length-1] = "last"
+attempt_terms[word_length - 1] = "last"
 
 if st.session_state.get("guess", None):
     st.session_state.guesses.append(st.session_state.get("guess").lower())
