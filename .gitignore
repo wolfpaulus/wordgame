@@ -5,3 +5,4 @@ app/__pycache__/
 *.pyc
 app.log
 server_state.json
+.vscode/
