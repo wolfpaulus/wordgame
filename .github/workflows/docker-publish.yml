@@ -1,3 +1,5 @@
+# Based on: GitHub Actions: "Publish Docker Container"
+#
 # GitHub Actions workflow to build and publish a docker image to the GitHub Container Registry
 # Author: Wolf Paulus (https://wolfpaulus.com)
 #
@@ -28,6 +30,12 @@ jobs:
       contents: read
       packages: write
     steps:
+      # QEMU is a generic and open source machine & userspace emulator and virtualizer.
+      # Buildx is a Docker CLI plugin for extended build capabilities with BuildKit.
+      # It provides the same functionality as docker build with many new features.
+      # The docker/setup-qemu-action action sets up QEMU for use in GitHub Actions.
+      # The docker/setup-buildx-action action sets up Docker Buildx for use in GitHub Actions.
+      # The docker/build-push-action action builds and pushes Docker images to a registry.            
       - name: convert IMAGE_NAME to lowercase, setup QEMU and Buildx
         run: |
           echo "REGISTRY=${REGISTRY}" >> $GITHUB_ENV
@@ -49,7 +57,7 @@ jobs:
             username: ${{ github.actor }}
             password: ${{ secrets.GITHUB_TOKEN }}          
 
-      - name: Build and push
+      - name: Build and push Docker image
         uses: docker/build-push-action@v6
         with:
           context: .

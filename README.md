@@ -66,7 +66,7 @@ Play again? (yes/no):
 
 **WebApp Example:**
 
-![](./instructions/app.jpg)
+![](./instructions/app.png)
 
 ## Deployment / CICD
 

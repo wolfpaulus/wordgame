@@ -3,6 +3,7 @@
 # i.e. if it is responding to requests with a 200 OK status.
 # The CMD ["python3.13",  "-m",  "streamlit", "run" "--server.port", "8000", "src/app.py"] 
 # command is the default command that is run when the container is started.
+#
 # However, this can be changed by providing a different command when running the container.
 # I.e. docker run <container-id> /wordgame/healthcheck.sh
 # This script will launch the the application,(just like mentioned above,) 
