@@ -2,7 +2,7 @@
     Word guesing game
 """
 from random import randint
-from typing import Tuple, Union
+from typing import Union
 
 
 def select_word(file_path: str) -> Union[str, None]:
