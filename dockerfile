@@ -20,7 +20,7 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONPATH=/wordgame
 
-#  playing with the secret key
+#  playing with the secret keys
 ARG SECRET_KEY
 ENV SECRET_KEY=$SECRET_KEY
 
