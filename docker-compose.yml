@@ -1,7 +1,0 @@
-services:
-  wordgame:
-    container_name: wordgame
-    build:
-      dockerfile: Dockerfile
-      args:
-        - SECRET_KEY=$SECRET_KEY

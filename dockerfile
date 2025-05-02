@@ -20,8 +20,4 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONPATH=/wordgame
 
-#  playing with the secret keys
-ARG SECRET_KEY
-ENV SECRET_KEY=$SECRET_KEY
-
 CMD ["python3.13",  "-m", "streamlit", "run", "--server.port", "8000", "src/app.py"]
