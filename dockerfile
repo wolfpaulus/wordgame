@@ -1,5 +1,5 @@
 # Dokerfile to create the container image for the wordgame app
-FROM python:3.13-slim
+FROM python:3.14-slim
 LABEL maintainer="Wolf Paulus <wolf@paulus.com>"
 
 RUN apt-get update && \
@@ -20,4 +20,4 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONPATH=/wordgame
 
-CMD ["python3.13",  "-m", "streamlit", "run", "--server.port", "8000", "src/app.py"]
+CMD ["python3.14",  "-m", "streamlit", "run", "--server.port", "8000", "src/app.py"]
