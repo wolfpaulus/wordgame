@@ -2,7 +2,7 @@
 
 [![run-tests](https://github.com/wolfpaulus/wordgame/actions/workflows/python-test.yml/badge.svg)](https://github.com/wolfpaulus/wordgame/actions/workflows/python-test.yml)
 [![docker-publish](https://github.com/wolfpaulus/wordgame/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/wolfpaulus/wordgame/actions/workflows/docker-publish.yml)
-[![Uptime Robot status](https://img.shields.io/uptimerobot/status/m798198156-256aca088d07dcfe28e2eca2)](https://wordgame.erau.cloud)
+[![Uptime Robot status](https://img.shields.io/uptimerobot/status/m798198156-256aca088d07dcfe28e2eca2)](https://wordgame.wolfpaulus.com)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 
