@@ -62,4 +62,4 @@ txtflds[txtflds.length-1].focus();
 
 link = '<a href="https://github.com/wolfpaulus/wordgame" target="_blank">Source Code</a>'
 st.write(f'<i class="fa-brands fa-github"> {link} </i>', unsafe_allow_html=True)
-st.write("&copy; Wordgame Version 1.1 &bull; Wolf Paulus 2024-2026", unsafe_allow_html=True)
+st.write("&copy; Wordgame Version 1.1.1 &bull; Wolf Paulus 2024-2026", unsafe_allow_html=True)
