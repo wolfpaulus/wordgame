@@ -14,7 +14,7 @@
 name: docker-publish
 env:
   REGISTRY: ghcr.io # GitHub Container Registry
-  IMAGE_NAME: ${{ github.repository }}:latest
+  IMAGE_NAME: ${{ github.repository }}
 on:
   workflow_run:
     workflows: [run-tests]
